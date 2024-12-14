@@ -1,8 +1,8 @@
 import yt_dlp
 opt = {
-    'format': 'best',  # Downloads the best quality available
-    'outtmpl': '%(title)s.%(ext)s',  # Save file as the video title with extension
-    'noplaylist': True  # Ensures only a single video is downloaded if the link is a playlist
+    'format': 'best',
+    'outtmpl': '%(title)s.%(ext)s',
+    'noplaylist': True
 }
 
 def downloading(video_link):
